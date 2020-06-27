@@ -5,17 +5,11 @@ class Maior
 
     # [1,3,2]
 
-    # o primeiro é maior
-    maior = numeros.first
+    # ordena a lista [1,2,3]
+    ordenados = numeros.sort
 
-    # percorrer a lista de números
-    numeros.each do |numero_atual|
-      # numero atual é maior do que o maior atual
-      if numero_atual > maior
-        # então ele é o novo maior
-        maior = numero_atual
-      end
-    end
+    # pega o último número
+    maior = ordenados.last
 
     maior
   end
