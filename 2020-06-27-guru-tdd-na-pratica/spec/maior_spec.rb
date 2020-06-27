@@ -14,4 +14,6 @@ describe Maior do
 
   it { expect(subject.retorna_maior('1 2 3')).to eq(nil) }
 
+  # Desafio: Fazer esse teste passar
+  it { expect(subject.retorna_maior([3,'2',1])).to eq(3) }
 end
