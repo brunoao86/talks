@@ -10,4 +10,6 @@ describe Maior do
 
   it { expect(subject.retorna_maior([3,2,1])).to eq(3) }
 
+  it { expect(subject.retorna_maior(nil)).to eq(nil) }
+
 end

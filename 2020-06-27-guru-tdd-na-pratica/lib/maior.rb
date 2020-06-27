@@ -1,5 +1,8 @@
 class Maior
   def retorna_maior(numeros)
+    # sai da função se não foi passado nada
+    return if numeros.nil?
+
     # [1,3,2]
 
     # o primeiro é maior
