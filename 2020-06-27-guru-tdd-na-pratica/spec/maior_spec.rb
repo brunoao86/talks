@@ -12,4 +12,6 @@ describe Maior do
 
   it { expect(subject.retorna_maior(nil)).to eq(nil) }
 
+  it { expect(subject.retorna_maior('1 2 3')).to eq(nil) }
+
 end
