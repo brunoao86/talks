@@ -6,14 +6,7 @@ class Maior
     # sai da função se numeros for uma string
     return if numeros.is_a?(String)
 
-    # [1,3,2]
-
-    # ordena a lista [1,2,3]
-    ordenados = numeros.sort
-
-    # pega o último número
-    maior = ordenados.last
-
-    maior
+    # chamando o método max de Array
+    numeros.max
   end
 end
